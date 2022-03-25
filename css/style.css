@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap");
 
+/* body *********************************************/
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,14 @@ body {
   font-family: "Courier Prime", monospace;
   background-color: #d1d6d6;
   width: 0 auto;
+}
+
+h2 {
+  width: 56%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px auto;
 }
 
 /* header *******************************************/
@@ -23,10 +32,6 @@ h1 {
   font-weight: 700;
   margin-bottom: 20px;
   color: #1c1c1c;
-}
-
-a {
-  text-decoration: none;
 }
 
 .menu {
@@ -51,15 +56,7 @@ ul {
   color: yellowgreen;
 }
 
-h2 {
-  width: 56%;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 700;
-  margin: 20px auto;
-}
-
-/*main **********************************************/
+/* main *********************************************/
 main {
   width: 80%;
   margin: 0 auto;
@@ -67,6 +64,7 @@ main {
   flex-direction: row;
 }
 
+/* article ******************************************/
 article {
   width: 65%;
 }
@@ -100,15 +98,17 @@ button:hover {
   color: yellowgreen;
 }
 
+/* separador ****************************************/
 span {
   width: 5%;
 }
 
+/* aside ********************************************/
 aside {
   width: 30%;
 }
 
-aside h3 {
+h3 {
   margin-left: 5px;
   font-size: 22px;
   text-transform: uppercase;
@@ -116,19 +116,13 @@ aside h3 {
 
 .acesso-insta {
   display: flex;
-  align-items: flex-end;
+  align-items: stretch;
   justify-content: space-between;
   padding-bottom: 10px;
 }
 
-.acesso-insta img {
-  width: 7%;
-  margin-right: 5px;
-}
-
-.acesso-insta img:hover {
-  filter: invert(35%) sepia(49%) saturate(2822%) hue-rotate(215deg)
-    brightness(92%) contrast(92%);
+.go-to-right {
+  height: 20px;
 }
 
 .go-to-right:hover {
@@ -136,6 +130,16 @@ aside h3 {
     brightness(92%) contrast(92%);
   transform: rotateY(-360deg);
   transition: 1s ease-in-out;
+}
+
+.icon-insta {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.icon-insta:hover {
+  filter: invert(35%) sepia(49%) saturate(2822%) hue-rotate(215deg)
+    brightness(92%) contrast(92%);
 }
 
 .print-insta {
@@ -171,6 +175,7 @@ aside h3 {
   padding: 10px;
   border: 10px solid #1c1c1c4d;
   font-weight: 700;
+  margin-bottom: 50px;
 }
 
 .sumario {
@@ -181,13 +186,33 @@ aside h3 {
   font-size: 18px;
 }
 
+.sumario a {
+  color: royalblue;
+}
+
 ol {
   list-style-type: none;
   padding-left: 10px;
 }
 
-.sumario a {
+.contato {
+  width: 100%;
+  padding: 10px;
+  border: 10px solid #1c1c1c4d;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.contato a {
+  text-decoration: none;
   color: royalblue;
+}
+
+.contato img {
+  width: 50px;
+  margin: 10px 0;
+  padding: 0 10px;
+  vertical-align: middle;
 }
 
 /* footer *******************************************/
@@ -208,13 +233,13 @@ footer {
   padding: 10px 0;
 }
 
+.links-uteis li {
+  margin: 0 20px;
+}
+
 .links-uteis a {
   text-decoration: none;
   color: #d1d6d6;
-}
-
-.links-uteis li {
-  margin: 0 20px;
 }
 
 .links-uteis a:hover {
