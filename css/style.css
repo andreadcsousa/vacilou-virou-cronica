@@ -1,26 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap");
 
-/* body *********************************************/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Courier Prime", monospace;
-  background-color: #d1d6d6;
-  width: 0 auto;
-}
-
-h2 {
-  width: 56%;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 700;
-  margin: 20px auto;
-}
-
 /* header *******************************************/
 .cabecalho {
   padding: 30px 0;
@@ -54,6 +33,27 @@ ul {
 
 .menu-link:hover {
   color: yellowgreen;
+}
+
+/* body *********************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier Prime", monospace;
+  background-color: #d1d6d6;
+  width: 0 auto;
+}
+
+h2 {
+  width: 56%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px auto;
 }
 
 /* main *********************************************/

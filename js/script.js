@@ -1,4 +1,4 @@
-// botão voltar para o topo da página
+// Back-to-Top
 function backToTop() {
   const backToTopButton = document.querySelector(".back-to-top");
 
@@ -9,6 +9,7 @@ function backToTop() {
   }
 }
 
+// Scroll-Smooth
 $(document).ready(function () {
   // Add smooth scrolling to all links
   $("a").on("click", function (event) {
